@@ -38,6 +38,14 @@ body-parser@1.18.3:
     raw-body "2.3.3"
     type-is "~1.6.16"
 
+bolengedb@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/bolengedb/-/bolengedb-0.0.9.tgz#0617730adbef8901dfd91d624f0068671f43b0b1"
+  integrity sha512-aWs4CtOFIQJFimlsuV95BSpJErzivSmDe7lu76eeiqR6erbyN1/YfgMHOoYcgCRQ5XDu7TygySwq3lUIipkQtw==
+  dependencies:
+    mb-file "0.0.1"
+    mbnumber "^0.1.0"
+
 bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
@@ -203,6 +211,16 @@ ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
+
+mb-file@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/mb-file/-/mb-file-0.0.1.tgz#15cdc4fc9990616c0dde61ffa713831830f71b8f"
+  integrity sha512-D7Tt6IUUnP2TWO4UFZyOMfCvIM5Gn8FwwtmbB7w1jx9GMIINjrRy9GStQfDN7hSCzYvyrK8RM9+dYIhyo3p3xA==
+
+mbnumber@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/mbnumber/-/mbnumber-0.1.1.tgz#b5f84feeb85e768fbe4974434ddebbdc2d709556"
+  integrity sha512-clTSfGI9VEOvKaTAms1kmMkx45fMSA2/k7s8Fqh7KOIRgXOq5aG4c0dvzR2e4Da37ncLHdtpZc6xKkuBNMMOwg==
 
 media-typer@0.3.0:
   version "0.3.0"

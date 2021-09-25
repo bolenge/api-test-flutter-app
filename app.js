@@ -4,6 +4,17 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
+const db = require('./database/db')
+
+db.connect()
+  .then(resolve => {
+    console.log(resolve.message)
+  })
+  .catch(err => {
+    console.log(err.message)
+  })
+
+// Call router
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 

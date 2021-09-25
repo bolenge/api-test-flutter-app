@@ -14,9 +14,10 @@ db.connect()
     console.log(err.message)
   })
 
-// Call router
+// Router
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const townsRouter = require('./routes/towns');
 
 const app = express();
 
@@ -30,8 +31,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Routing
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/towns', townsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
